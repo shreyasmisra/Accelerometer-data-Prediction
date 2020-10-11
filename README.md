@@ -1,5 +1,5 @@
 # Accelerometer-data-Prediction
-The given accelerometer data was classified into walking, standing, going up stairs, going down the stairs.
+The given accelerometer data was classified into walking, standing, going up or going down the stairs.
 
 Methodology ---
 Step 1: Import data from CSV files. The data is characterized into ID, Timestamps, UTC time, X,Y,Z values.
