@@ -17,8 +17,8 @@ class Support_Vector_Machine:
         ''' Fit the training data '''
         self.data = data
         opt_dict = {}
-        transforms = [[1,1,1],[-1,1,1],[-1,1,-1],[-1,-1,-1],[-1,-1,1],[1,-1,1],[1,-1,-1],[1,1,-1]]
-        # transforms = [[1,1],[1,-1],[-1,1],[-1,-1]]
+        #transforms = [[1,1,1],[-1,1,1],[-1,1,-1],[-1,-1,-1],[-1,-1,1],[1,-1,1],[1,-1,-1],[1,1,-1]] # for 3D
+        transforms = [[1,1],[1,-1],[-1,1],[-1,-1]] # For 2D problems
         # inefficient
         all_data = []
         for yi,featureset in list(self.data.items()):
