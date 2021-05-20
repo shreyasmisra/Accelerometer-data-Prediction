@@ -8,5 +8,5 @@ Step 3: Define Models - Forest Classifier, Logistic Regression and SVM.<br/>
 Step 4: Test each Model using cross validation and feature importances using L1 and L2 regularization.<br/>
 Step 5: Use the best model and features to test accuracy of the validation set and predict the values of the new data.<br/>
 
-Results - All movements were walking with a maximum accuracy of 93%. However, this could be due to overtraining as there is not enough data. 
+Results - All movements were classified as walking with a maximum accuracy of 93%.
  
